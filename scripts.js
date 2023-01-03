@@ -65,7 +65,7 @@ dataList.forEach( function (data) {
 
     // Création de la balise video
     let blockVideo = document.createElement("div");
-    blockVideo.classList.add("video");
+    blockVideo.classList.add("vid");
     blockVideo.append(video);
    
     article.append(details);
