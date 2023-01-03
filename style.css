@@ -233,7 +233,7 @@ body{
     grid-template-columns: 1fr ;
     gap: 0px 
 }
-article > div > h1, p, h2 {
+.details .vid{
     background-color:lavender;
     padding-bottom: 20px;
     margin-bottom: 0px;
