@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('./Rubik_Vinyl/RubikVinyl-Regular.ttf') format('truetype');
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.color-blue {
+    color: #1CA3EC;
+    text-transform: uppercase;
+    background-color: #1CA3EC;
+    list-style: none;
+    margin:0px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul li:hover a {
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li.active {
+   color: red; 
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+.hunter{
+    padding-top: 15px;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.news{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    font-size: 20px;
+}
+h2,h1{
+    text-transform: uppercase;
+}
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+    background-image:url(https://img.freepik.com/photos-gratuite/fond-ecran-colore-flou-vif_58702-3798.jpg?w=2000);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.la-une{
+    background-image: url(https://thumbs.dreamstime.com/b/paysage-horizontal-avec-sakura-et-le-mont-fuji-matinal-lumineux-ciel-bleu-branches-de-cerisiers-blancs-en-fleurs-sur-fond-du-f%C3%AAte-212269858.jpg);
+    padding: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 60px;
+}
+.table-matiere{
+    margin: 5Opx;
+    border-color: black;
+    font-size: 20px;
+}
+.crunch{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px
+}
+ .fun {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px
+ }
+ .adn {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px
+ }
+ .hulu{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px
+ }
+ .voir{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 
+ }
+ .ret{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 
+ }
+ .wak{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 
+ }
+.video{
+    width:80%;
+    height: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+.adk{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 
+}
+.chef{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 0px 
+}
+.anime-moment{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background-color: lavender;
+    width: 70%;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sel{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 0px 
+}
+.rayon-mangas{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 0px
+}
+.mangas-news{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 0px
+}
+.tay{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 0px 
+}
+.hautdepage{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+.top10 {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.top10 > div > h1 {
+    text-align: center;
+}
+.too{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 
+}
+.otaku{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 
+}
+.mav{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 
+}
+.net{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 
+}
+.chaines{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.afro{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 0px 
+}
+article > div > h1, p, h2{
+    background-color:lavender;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+iframe{
+    margin-top: 0px;
+}
