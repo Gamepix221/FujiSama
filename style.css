@@ -241,4 +241,6 @@ body{
 }
 iframe{
     margin-top: 0px;
+    diplay: flex;
+    justify-content: center;
 }
