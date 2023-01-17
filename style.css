@@ -241,6 +241,6 @@ body{
 }
 iframe{
     margin-top: 0px;
-    diplay: flex;
+    display: flex;
     justify-content: center;
 }
