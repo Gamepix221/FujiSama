@@ -161,25 +161,25 @@ body{
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr ;
-    gap: 0px 
+    gap: 5px 
 }
 .rayon-mangas{
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr ;
-    gap: 0px
+    gap: 5px
 }
 .mangas-news{
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr ;
-    gap: 0px
+    gap: 5px
 }
 .tay{
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr ;
-    gap: 0px 
+    gap: 5px 
 }
 .hautdepage{
     margin-left: auto;
@@ -233,7 +233,7 @@ body{
     grid-template-columns: 1fr ;
     gap: 0px 
 }
-.details .vid .description{
+.details{
     background-color:lavender;
     padding-bottom: 20px;
     margin-bottom: 0px;
